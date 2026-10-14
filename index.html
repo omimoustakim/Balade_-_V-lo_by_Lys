@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="theme-color" content="#0c3d1c">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Balade à Vélo by Lys — Pédale, découvre, rencontre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="home">
+    <header class="hero">
+      <nav>
+        <span class="b"><span class="l"></span><span class="nm">Balade à Vélo by Lys</span></span>
+        <a class="r" href="#reservation">Réserver</a>
+      </nav>
+      <div class="wrap">
+        <span class="tag">📍 Cotonou, Bénin</span>
+        <h1>Pédale, découvre,<br><em>rencontre.</em></h1>
+        <p>Des balades à vélo conviviales à Cotonou et alentours. Viens seul(e) ou entre amis, on s'occupe du reste.</p>
+        <div class="btns">
+          <a class="btn l" href="#reservation">Réserver ma balade</a>
+          <a class="btn o" href="#balades">Voir les sorties</a>
+        </div>
+        <div class="stats">
+          <div><b>4 554</b><small>Followers</small></div>
+          <div><b>19,5 K</b><small>J'aime</small></div>
+          <div><b>48,7 K</b><small>Vues max.</small></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="dark" id="balades">
+      <div class="wrap">
+        <h2>Nos <em>balades</em></h2>
+        <p class="sub">Choisis ton parcours. Chaque sortie est encadrée, en gilet jaune, dans la bonne humeur.</p>
+        <div class="grid">
+          <div class="pc" data-r="0" style="background-image:url('images/balade-cotonou.jpg')"><span class="t">Régulier</span><h3>Balade à Cotonou</h3><p>Le long de la côte et dans les quartiers vivants de la ville.</p><span class="r">Réserver →</span></div>
+          <div class="pc" data-r="1" style="background-image:url('images/avlekete.jpg')"><span class="t">17 oct. • 14h30</span><h3>Direction Avlékété</h3><p>Une sortie nature au bord de l'eau, départ 14h30, retour vers 20h30.</p><span class="r">Réserver →</span></div>
+          <div class="pc" data-r="2" style="background-image:url('images/ouidah-porte-du-non-retour.jpg')"><span class="t">Culture</span><h3>Ouidah à vélo</h3><p>Jusqu'à la Porte du Non-Retour, avec le Togbin Club des Rois.</p><span class="r">Réserver →</span></div>
+          <div class="pc" data-r="3" style="background-image:url('images/apprendre-velo.jpg')"><span class="t">Initiation</span><h3>Apprends à faire du vélo</h3><p>Cours adaptés et accompagnement personnalisé, en toute confiance.</p><span class="r">Réserver →</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="light">
+      <div class="wrap">
+        <h2>En <em style="color:var(--g)">images</em></h2>
+        <p class="sub">Des sourires, des gilets jaunes et beaucoup de kilomètres partagés.</p>
+        <div class="collage">
+          <div class="a" style="background-image:url('images/togbin-club-des-rois.jpg')"></div>
+          <div class="b" style="background-image:url('images/avlekete.jpg')"></div>
+          <div class="b" style="background-image:url('images/balade-cotonou.jpg')"></div>
+          <div class="d" style="background-image:url('images/ouidah-porte-du-non-retour.jpg')"></div>
+          <div class="c" style="background-image:url('images/apprendre-velo.jpg')"></div>
+        </div>
+        <div class="banner" style="margin-top:34px">
+          <h2>Prêt(e) à rouler ?</h2>
+          <p>Réserve ta place en quelques secondes.</p>
+          <a class="btn" href="#reservation">Réserver maintenant →</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="resa" hidden>
+    <div class="rh">
+      <div class="wrap">
+        <a href="#" class="back">← Retour à l'accueil</a>
+        <h2>Réserve ta <em>balade</em></h2>
+        <p class="sub" style="margin:6px 0 0">3 étapes, 1 minute. Ta demande part par e-mail, déjà rédigée.</p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="panel">
+        <div class="st"><i>1</i>Choisis ta balade</div>
+        <div class="rg">
+          <label class="ride"><input type="radio" name="ride" value="Balade à Cotonou" checked><span class="im" style="background-image:url('images/balade-cotonou.jpg')"></span><span><strong>Balade à Cotonou</strong><small>Régulier</small></span></label>
+          <label class="ride"><input type="radio" name="ride" value="Direction Avlékété (départ 14h30)"><span class="im" style="background-image:url('images/avlekete.jpg')"></span><span><strong>Direction Avlékété</strong><small>17 oct. • 14h30</small></span></label>
+          <label class="ride"><input type="radio" name="ride" value="Ouidah à vélo"><span class="im" style="background-image:url('images/ouidah-porte-du-non-retour.jpg')"></span><span><strong>Ouidah à vélo</strong><small>Porte du Non-Retour</small></span></label>
+          <label class="ride"><input type="radio" name="ride" value="Apprends à faire du vélo (initiation)"><span class="im" style="background-image:url('images/apprendre-velo.jpg')"></span><span><strong>Apprends à faire du vélo</strong><small>Initiation</small></span></label>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="st"><i>2</i>Date et participants</div>
+        <div class="two">
+          <div><label class="f" for="dt">Date souhaitée</label><input type="date" id="dt"></div>
+          <div><label class="f">Participants</label><div class="stepper"><button type="button" id="m" aria-label="moins">−</button><span id="n">1</span><button type="button" id="p" aria-label="plus">+</button></div></div>
+        </div>
+        <label class="f">Vélo</label>
+        <div class="chips">
+          <label><input type="radio" name="velo" value="J'ai mon vélo" checked>🚲 J'ai mon vélo</label>
+          <label><input type="radio" name="velo" value="Je souhaite louer un vélo">Je loue un vélo</label>
+        </div>
+        <label class="f">Niveau</label>
+        <div class="chips">
+          <label><input type="radio" name="niv" value="Débutant(e)" checked>Débutant(e)</label>
+          <label><input type="radio" name="niv" value="Intermédiaire">Intermédiaire</label>
+          <label><input type="radio" name="niv" value="À l'aise">À l'aise</label>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="st"><i>3</i>Tes coordonnées</div>
+        <div class="two">
+          <div><label class="f" for="nom">Nom et prénom</label><input type="text" id="nom" placeholder="Aïcha Dossou" autocomplete="name"></div>
+          <div><label class="f" for="tel">Téléphone</label><input type="tel" id="tel" placeholder="+229 ..." autocomplete="tel"></div>
+        </div>
+        <label class="f" for="msg">Un message pour Lys ? (facultatif)</label>
+        <textarea id="msg" rows="2" placeholder="Une question, un(e) ami(e) qui vient avec toi…"></textarea>
+      </div>
+      <p class="err" id="err" role="alert"></p>
+      <footer>🚴‍♀️ Balade à Vélo by Lys • Cotonou, Bénin</footer>
+    </div>
+    <div class="bar">
+      <div class="bi">
+        <div><b id="s1">Balade à Cotonou</b><span id="s2">1 pers.</span></div>
+        <button id="go">Envoyer<span class="lg"> ma réservation</span> ✉️</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
